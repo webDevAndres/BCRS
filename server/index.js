@@ -37,8 +37,6 @@ app.use("/", express.static(path.join(__dirname, "../dist/bcrs")));
 // default server port value.
 const PORT = process.env.PORT || 3000;
 
-// TODO: This line will be replaced with your database connection string (including username/password).
-// const CONN = 'mongodb+srv://superadmin:s3cret@cluster0-lujih.mongodb.net/bcrs?retryWrites=true&w=majority';
 
 // Bob computer repair shop database connection
 const CONN = config.dbConn;
